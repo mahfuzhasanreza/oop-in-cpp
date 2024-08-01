@@ -50,7 +50,7 @@ When properties & member functions of base (parent) class are passed on to the d
   
 Inheritace used for code reusability.
 
-**Mode of Inheritance**
+**Mode of Inheritance:**
 |  | **Derived Class** | **Derived Class** | **Derived Class** |
 |:-:|:-------------:|:------------:|:-------------:|
 | **Base Class** | **Private Mode** | **Protected Mode** | **Public Mode** |
