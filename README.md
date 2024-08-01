@@ -49,3 +49,11 @@ Destructor: Deallocate memory for object.
 When properties & member functions of base (parent) class are passed on to the derived (child) class.
   
 Inheritace used for code reusability.
+
+**Mode of Inheritance**
+|  | **Derived Class** | **Derived Class** | **Derived Class** |
+|:-:|:-------------:|:------------:|:-------------:|
+| **Base Class** | **Private Mode** | **Protected Mode** | **Public Mode** |
+| **Private** | Not Inherited | Not Inherited | Not Inherited |
+| **Protected** | Private | Protected | Protected |
+| **Public** | Private | Protected | Public |
