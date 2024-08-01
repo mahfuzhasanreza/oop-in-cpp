@@ -28,3 +28,9 @@ A shallow copy of an object copies all of the member values from one object to a
 **Problem:** Dynamic memory allocation (in Heap not in Stack).
   
 A deep copy, on the other hand, not only copies the member values but also make copies of any dynamically alloated memory that the members point to.
+
+## Destructor
+Opposite of constructor
+  
+Constructor: Allocate memory for object.
+Destructor: Deallocate memory for object.
