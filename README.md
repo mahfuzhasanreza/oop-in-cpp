@@ -7,6 +7,15 @@
 - default_copy_constructor.cpp
 - custom_copy_constructor.cpp
 - shallow_copy_problem.cpp
+- destructor.cpp
+- inheritace.cpp
+- destructor_order.cpp
+
+## 4 Major OOPs Concepts
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
 
 ## Encapsulation
 **Encapsulation** is wrapping up of data & member functions in a single unit called class.
@@ -34,3 +43,8 @@ Opposite of constructor
   
 Constructor: Allocate memory for object.
 Destructor: Deallocate memory for object.
+
+## Inheritance
+When properties & member functions of base (parent) class are passed on to the derived (child) class.
+  
+Inheritace used for code reusability.
