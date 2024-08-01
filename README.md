@@ -1,5 +1,12 @@
 # OOP in C++
 
+## Step-by-step C++ Files
+- class_and_object.cpp
+- constructor.cpp
+- this_ptr.cpp
+- default_copy_constructor.cpp
+- custom_copy_constructor.cpp
+
 ## Encapsulation
 **Encapsulation** is wrapping up of data & member functions in a single unit called class.
 
