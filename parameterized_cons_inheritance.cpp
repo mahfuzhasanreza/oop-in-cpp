@@ -7,8 +7,9 @@ public:
     string name;
     int age;
 
-    Person(){
-        cout<<"parent constructor\n";
+    Person(string name, int age){
+        this->name=name;
+        this->age=age;
     }
 };
 
@@ -16,8 +17,8 @@ class Student : public Person{
 public:
     int rollno;
 
-    Student(){
-        cout<<"child constructor\n";
+    Student(string name, int age, int rollno) : Person(name, age){
+        this->rollno=rollno;
     }
 
     void getInfo(){
@@ -28,11 +29,7 @@ public:
 };
 
 int main(){
-    Student s1;
-    s1.name="Mahfuz";
-    s1.age=18;
-    s1.rollno=123;
-
+    Student s1("Mahfuz", 18, 123);
     s1.getInfo();
 
     return 0;

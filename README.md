@@ -10,6 +10,7 @@
 - destructor.cpp
 - inheritace.cpp
 - destructor_order.cpp
+- parameterized_cons_inheritance.cpp
 
 ## 4 Major OOPs Concepts
 1. Encapsulation
