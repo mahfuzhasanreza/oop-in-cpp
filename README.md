@@ -11,6 +11,9 @@
 - inheritace.cpp
 - destructor_order.cpp
 - parameterized_cons_inheritance.cpp
+- multi_level_inheritance.cpp
+- multiple_inheritance.cpp
+- hierarchial_inheritance.cpp
 
 ## 4 Major OOPs Concepts
 1. Encapsulation
@@ -57,3 +60,15 @@ Inheritace used for code reusability.
 | **Private** | Not Inherited | Not Inherited | Not Inherited |
 | **Protected** | Private | Protected | Protected |
 | **Public** | Private | Protected | Public |
+  
+**Types of Inheritance**
+- Single Inheritance
+> 1 Parent --> 1 Child
+- Multi-level Inheritance
+> 1 Parent --> 1 Parent --> 1 Child
+- Multiple Inheritance
+> 2 Parent --> 1 Child
+- Hierarchial Inheritance
+> 1 Parent --> 2 Child
+- Hybrid Inheritance
+> Mix of all categories
